@@ -67,13 +67,13 @@ main:has(.back-link) {
   color: #808080;
   font-family: 'Montserrat', sans-serif;
 }
-.input:active {
+.input:focus {
   border: 1px solid #000;
-  outline: none;
+  /*outline: none;*/
 }
 .input:active {
   border: 1px solid #4e75ff;
-  outline: none;
+  /*outline: none;*/
 }
 button {
   padding: 8px 16px;
@@ -126,8 +126,7 @@ button:hover {
 }
 
 .gallery-image {
-  width: 100%;
-  max-height: 152px;
+  aspect-ratio: 360 / 152;
 
   object-fit: cover;
   display: block;
