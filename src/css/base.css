@@ -126,6 +126,7 @@ button:hover {
 }
 
 .gallery-image {
+  width: 100%;
   aspect-ratio: 360 / 152;
 
   object-fit: cover;
