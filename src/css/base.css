@@ -56,6 +56,7 @@ main:has(.back-link) {
 
   border: 1px solid #808080;
   border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   font-size: 16px;
 }
@@ -77,18 +78,19 @@ main:has(.back-link) {
 button {
   padding: 8px 16px;
   width: 91px;
+  height: 40px;
 
   border: none;
   border-radius: 8px;
   background-color: #4e75ff;
-
-
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
-  
+
   cursor: pointer;
   transition: background-color 250ms ease;
 }
@@ -112,7 +114,8 @@ button:hover {
   height: 200px;
 
   border: 1px solid #808080;
-
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   flex-direction: column;
   transition: transform 250ms ease;
@@ -128,17 +131,16 @@ button:hover {
 
   object-fit: cover;
   display: block;
-  
 }
 
 .info {
   height: 48px;
-  
+
   display: flex;
   text-align: center;
   align-items: center;
   column-gap: 32px;
-  
+
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
